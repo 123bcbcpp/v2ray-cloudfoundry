@@ -83,7 +83,7 @@ applications:
 `ibmcloud cf install`
 `ibmcloud cf push`
 
-  
+```  
 addEventListener(
   "fetch",event =>{
     let url=new URL(event.request.url);
@@ -94,4 +94,5 @@ addEventListener(
     )    
   }
 )
+```
 //等待cloud foundry重启成功!
