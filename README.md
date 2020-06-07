@@ -84,5 +84,14 @@ applications:
 `ibmcloud cf push`
 
   
-
+addEventListener(
+  "fetch",event =>{
+    let url=new URL(event.request.url);
+    url.hostname="v2123.mybluemix.net";
+    let request=new Request(url,event.request);
+    event.respondWith(
+      fetch(request)
+    )    
+  }
+)
 //等待cloud foundry重启成功!
