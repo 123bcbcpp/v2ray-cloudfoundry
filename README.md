@@ -12,7 +12,7 @@ english:
 
   
 
-`git clone https://github.com/badafans/v2ray-cloudfoundry.git`
+`git clone https://github.com/123bcbcpp/v2ray-cloudfoundry.git`
 
 `cd v2ray-cloudfoundry/v2ray`
 
@@ -55,7 +55,7 @@ applications:
 
   
 
-`git clone https://github.com/badafans/v2ray-cloudfoundry.git`
+`git clone https://github.com/123bcbcpp/v2ray-cloudfoundry.git`
 
 `cd v2ray-cloudfoundry/v2ray`
 
@@ -87,7 +87,7 @@ applications:
 addEventListener(
   "fetch",event =>{
     let url=new URL(event.request.url);
-    url.hostname="v2123.mybluemix.net";
+    url.hostname="xx.mybluemix.net";
     let request=new Request(url,event.request);
     event.respondWith(
       fetch(request)
