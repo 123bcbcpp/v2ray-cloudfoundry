@@ -14,9 +14,9 @@
       "streamSettings": {
         "network":"tcp",
         "tcpSettings": {
-					"header": {
-						"type": "http",
-        }
+		"header": {
+			"type": "http"
+		}
       }
     }
   ],
