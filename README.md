@@ -80,7 +80,7 @@ applications:
   
 
 `ibmcloud target --cf`
-
+`ibmcloud cf install`
 `ibmcloud cf push`
 
   
